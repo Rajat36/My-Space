@@ -2,11 +2,12 @@
 using namespace std;
 
 int main(){
-    int arr[] = {1,2,3,4,5,6,7,8,9};
+    // int arr[] = {1,2,3,4,5,6,7,8,9};
+    int arr[] = {1,3,5,7,10};
     int size = sizeof(arr)/sizeof(arr[0]);
 
     // cout<<size<<endl;
-    int key = 4;
+    int key = 10;
     int start = 0, end = size-1;
     int mid = start + (end-start)/2;
 
@@ -26,3 +27,7 @@ int main(){
 
     return 0;
 }
+
+
+
+
